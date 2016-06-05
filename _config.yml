@@ -1,0 +1,17 @@
+# Site
+title: Shesh
+author: Sheshbabu Chinnakonda
+
+# URL
+url: http://www.sheshbabu.com/
+root: /
+permalink: :id/:title/
+
+# Extensions
+theme: landscape
+
+# Deployment
+deploy:
+  type: github
+  repo: git@github.com:sheshbabu/sheshbabu.github.io.git
+  branch: master
