@@ -14,6 +14,6 @@ theme: lightspeed
 
 # Deployment
 deploy:
-  type: github
+  type: git
   repo: git@github.com:sheshbabu/sheshbabu.github.io.git
   branch: master
