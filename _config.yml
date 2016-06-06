@@ -5,7 +5,10 @@ author: Sheshbabu Chinnakonda
 # URL
 url: http://www.sheshbabu.com/
 root: /
-permalink: :title/
+permalink: posts/:title/
+
+highlight:
+  line_number: false
 
 language: default
 
@@ -15,5 +18,5 @@ theme: lightspeed
 # Deployment
 deploy:
   type: git
-  repo: git@github.com:sheshbabu/sheshbabu.github.io.git
+  repo: https://github.com/sheshbabu/sheshbabu.github.io
   branch: master
