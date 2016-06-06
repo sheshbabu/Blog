@@ -1,0 +1,19 @@
+menu:
+  Home:
+  About Me: about.html
+  Archives: archives
+
+widgets:
+- search
+- category
+- tag
+
+excerpt_link: Read More
+
+addthis:
+  enable: false
+
+fancybox: false
+
+google_analytics:
+rss:

@@ -10,7 +10,7 @@ permalink: :title/
 language: default
 
 # Extensions
-theme: light
+theme: lightspeed
 
 # Deployment
 deploy:
