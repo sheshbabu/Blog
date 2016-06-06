@@ -8,7 +8,7 @@ root: /
 permalink: :id/:title/
 
 # Extensions
-theme: landscape
+theme: light
 
 # Deployment
 deploy:
