@@ -5,7 +5,7 @@ author: Sheshbabu Chinnakonda
 # URL
 url: http://www.sheshbabu.com/
 root: /
-permalink: :id/:title/
+permalink: :title/
 
 language: default
 
