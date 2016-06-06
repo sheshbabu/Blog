@@ -7,6 +7,8 @@ url: http://www.sheshbabu.com/
 root: /
 permalink: :id/:title/
 
+language: default
+
 # Extensions
 theme: light
 
