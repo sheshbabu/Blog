@@ -9,6 +9,8 @@ permalink: posts/:title/
 
 highlight:
   line_number: false
+  tab_replace: '    '
+
 
 language: default
 
