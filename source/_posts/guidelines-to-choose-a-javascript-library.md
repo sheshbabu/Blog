@@ -1,5 +1,7 @@
 ---
 title: Guidelines to choose a JavaScript library
+description: With all the new libraries coming up each day in the JS ecosystem, I created some guidelines to help me choose a good library
+keywords: JavaScript, Dependency, Library, Framework
 date: 2016-06-12 13:38:45
 tags:
 - JavaScript

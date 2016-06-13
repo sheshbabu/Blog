@@ -1,5 +1,7 @@
 ---
 title: Writing maintainable tests using the data driven approach
+description: Data Driven Testing helps making the tests more maintainable and readable
+keywords: JavaScript, DRY, Mocha, Data Driven Testing
 date: 2016-06-07 06:49:08
 tags:
 - Testing
