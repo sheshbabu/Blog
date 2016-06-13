@@ -17,6 +17,9 @@ language: default
 # Extensions
 theme: lightspeed
 
+sitemap:
+  path: sitemap.xml
+
 # Deployment
 deploy:
   type: git
