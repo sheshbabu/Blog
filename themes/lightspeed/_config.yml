@@ -4,7 +4,6 @@ menu:
   Archives: archives
 
 widgets:
-- search
 - category
 - tag
 
