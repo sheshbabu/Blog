@@ -2,27 +2,17 @@ icon-size = 32px
 icon-gap = 25px
 
 article
-  box-shadow 1px 2px 3px #ddd
-  background #fff
-
   .post-content
-    padding 20px 20px 15px (icon-size + icon-gap + 20)
     margin-bottom 50px
     position relative
-    @media screen and (max-width: 600px)
-      padding-left 20px
 
   header
     .title
       font-weight normal
       a
-        color color-font
-        &:hover
-          color color-link
-          text-decoration none
+        text-decoration none
 
   .entry
-    text-align justify
     line-height 1.6
     p, blockquote, ul, ol, dl, table, iframe, h3, h4, h5, h6, .video-container
       margin-top 15px
@@ -31,7 +21,6 @@ article
       border-top 1px solid color-border
       border-bottom 1px solid color-border
       font-style italic
-      font-family font-serif
       font-size 1.2em
       padding 0 30px 15px
       text-align center
@@ -56,8 +45,8 @@ article
       padding 0 5px
       margin 0 2px
       font-size 0.9em
-      border 1px solid color-border
       border-radius 3px
+      word-break break-all
 
     pre
       background hsl(230, 1%, 98%)
@@ -98,7 +87,6 @@ article
     .caption
       display block
       margin-top 5px
-      color color-meta
       position relative
       font-size 0.9em
       padding-left 25px
@@ -129,21 +117,10 @@ article
   footer
     margin-top 15px
     padding-top 10px
-    border-top 1px solid color-border
-    color color-meta
     font-size 0.9em
     line-height 16px
     position relative
     min-height 16px
-    a
-      color color-meta
-      &:hover
-        color color-link
-        text-decoration none
-
-      &.more-link
-        &:before
-          content '\f054'
 
     .categories, .tags
       position relative

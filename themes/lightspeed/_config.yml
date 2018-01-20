@@ -1,13 +1,1 @@
-menu:
-  Home:
-  About Me: about.html
-  Archives: archives
-
-widgets:
-- category
-- tag
-
-excerpt_link: Read More
-
 google_analytics: UA-78846816-1
-rss:
