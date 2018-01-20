@@ -33,8 +33,8 @@
             color color-link
 
 figure.highlight
-  background #eee
-  border 1px solid color-border
+  background hsl(230, 1%, 98%)
+  border 1px solid #eee
   margin-top 15px
   padding 7px 15px
   border-radius 2px
@@ -75,9 +75,8 @@ figure.highlight
   .line.marked
     background: #d6d6d6
 
+// Using colors from https://github.com/atom/one-light-syntax
 pre
-  // Theme: Solarized - Light
-  // More theme here: http://softwaremaniacs.org/media/soft/highlight/test.html
   .comment
   .template_comment
   .diff .header
@@ -85,7 +84,7 @@ pre
   .pi
   .lisp .string
   .javadoc
-    color #93a1a1
+    color hsl(230, 4%, 64%);
     font-style italic
 
   .keyword
@@ -96,7 +95,7 @@ pre
   .request
   .status
   .nginx .title
-    color #859900
+    color hsl(301, 63%, 40%);
 
   .number
   .command
@@ -106,7 +105,7 @@ pre
   .tex .formula
   .regexp
   .hexcolor
-    color #2aa198
+    color hsl(119, 34%, 47%)
 
   .title
   .localvars
@@ -117,7 +116,7 @@ pre
   .vhdl
   .literal
   .id
-    color #268bd2
+    color hsl(221, 87%, 60%);
 
   .attribute
   .variable
@@ -127,7 +126,7 @@ pre
   .class .title
   .parent
   .haskell .type
-    color #b58900
+    color hsl(41, 99%, 30%);
 
   .preprocessor
   .preprocessor .keyword
@@ -141,7 +140,7 @@ pre
   .subst
   .cdata
   .clojure .title
-    color #cb4b16
+    color hsl(41, 99%, 38%);
 
   .deletion
     color #dc322f
