@@ -9,10 +9,5 @@ widgets:
 
 excerpt_link: Read More
 
-addthis:
-  enable: false
-
-fancybox: false
-
 google_analytics: UA-78846816-1
 rss:
