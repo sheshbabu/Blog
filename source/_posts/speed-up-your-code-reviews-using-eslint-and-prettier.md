@@ -5,6 +5,8 @@ keywords: JavaScript, Development, ESLint, Prettier, Lint Staged, Husky, Code Re
 date: 2017-09-07 20:00:00
 tags:
 - JavaScript
+- ESLint
+- Prettier
 - Development
 ---
 
