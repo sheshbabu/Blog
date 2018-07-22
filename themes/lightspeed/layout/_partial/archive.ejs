@@ -5,7 +5,9 @@ page.posts.forEach(post => years.add(post.date.year()))
 
 <div class="archive">
   <% global.years.forEach(year => { %>
-    <h2 class="year-title"><%= year %></h2>
+    <% if (page.posts.some(post => post.date.year() === year)){ %>
+      <h2 class="year-title"><%= year %></h2>
+    <% } %>
     <% page.posts.forEach(post => { %>
       <% if (post.date.year() === year){ %>
         <article class="<%= post.layout %>">
