@@ -1,0 +1,9 @@
+div.meta
+  div.tags Tagged under: 
+    if page.tags && page.tags.data
+      each tag, index in page.tags.data
+        a(href= config.root + tag.path)=tag.name
+        if index !== page.tags.data.length-1
+          span , 
+  div.date-published Published on: 
+    time(datetime= page.date.toDate().toISOString(), itemprop="datePublished")= page.date.format("DD MMM YYYY")

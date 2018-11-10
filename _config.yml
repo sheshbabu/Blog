@@ -14,7 +14,7 @@ highlight:
 language: default
 
 # Extensions
-theme: lightspeed
+theme: minimal
 
 sitemap:
   path: sitemap.xml

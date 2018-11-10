@@ -1,0 +1,33 @@
+extends base.pug
+
+mixin year-section(year, posts)
+  h2.year-section-title= postYear
+  each post in posts
+    +article-row(post)
+
+mixin article-row(post)
+  article.article-row
+    header
+      h1.title
+        a(href= config.root + post.path)= post.title
+      time(datetime= post.date.toDate().toISOString())
+        a(href= config.root + post.path)= post.date.format("MMM DD")
+
+block append styles
+  include ../source/styles/index.css
+
+block content
+  div.posts
+    -
+      let postsGroupedByYear = {};
+      let sortedYears = []
+      page.posts.forEach(post => {
+        const postYear = post.date.year()
+        if (postsGroupedByYear[postYear] === undefined) {
+          postsGroupedByYear[postYear] = []
+        }
+        postsGroupedByYear[postYear].push(post)
+      })
+      sortedYears = Object.keys(postsGroupedByYear).sort().reverse();
+    each postYear in sortedYears
+      +year-section(postYear, postsGroupedByYear[postYear])

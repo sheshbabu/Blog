@@ -1,0 +1,15 @@
+extends base.pug
+
+block append styles
+  include ../source/styles/post.css
+  include ../source/styles/highlight.css
+
+block content
+  article(class=page.layout)
+    div.post-content
+      header
+        h1=page.title
+      div.entry !{page.content}
+      footer
+        include includes/tags.pug
+        include includes/about.pug
