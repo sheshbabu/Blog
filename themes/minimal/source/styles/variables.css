@@ -1,6 +1,4 @@
 :root {
-  --border-color: #ddd;
-  
   --default-font: system-ui, "Helvetica Neue", "Helvetica", Arial, sans-serif;
   --mono-font: Monaco, Menlo, Consolas, Courier New, monospace;
 }
