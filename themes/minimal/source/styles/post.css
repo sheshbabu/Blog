@@ -1,5 +1,5 @@
-.post-content .entry {
-  line-height: 1.6;
+.post-content header h1 {
+  margin-bottom: 40px;
 }
 
 .post-content .entry p,
@@ -7,21 +7,27 @@
 .post-content .entry ul,
 .post-content .entry ol,
 .post-content .entry dl,
-.post-content .entry table,
 .post-content .entry iframe,
-.post-content .entry h3,
-.post-content .entry h4,
-.post-content .entry h5,
-.post-content .entry h6,
 .post-content .entry .video-container {
   margin-top: 15px;
 }
 
-.post-content .entry h1, 
+.post-content .entry ul {
+  margin-left: 15px;
+}
+
+.post-content .entry h1,
 .post-content .entry h2 {
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 10px;
-    margin-top: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+
+.post-content .entry h3,
+.post-content .entry h4,
+.post-content .entry h5,
+.post-content .entry h6 {
+  margin-top: 40px;
 }
 
 .post-content .entry code {
@@ -29,13 +35,8 @@
   color: #666;
   padding: 0 5px;
   margin: 0 2px;
-  font-size: 0.9em;
   border-radius: 3px;
   word-break: break-all;
-}
-
-.post-content footer {
-  font-size: 14px;
 }
 
 .post-content footer .meta,
@@ -47,11 +48,6 @@
 
 .post-content footer .meta .date-published {
   margin-top: 10px;
-}
-
-.post-content footer .about-me {
-  font-size: 16px;
-  line-height: 1.6;
 }
 
 .post-content footer .about-me h3 {

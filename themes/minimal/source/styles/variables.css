@@ -1,5 +1,4 @@
 :root {
-  --default-font: system-ui, "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  --default-font: "Merriweather", serif;
   --mono-font: Monaco, Menlo, Consolas, Courier New, monospace;
 }
-

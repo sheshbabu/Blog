@@ -6,9 +6,10 @@
 
 body {
   font-family: var(--default-font);
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 1.6;
   margin: 0 auto;
-  width: 900px;
+  width: 750px;
 }
 
 @media screen and (max-width: 1260px) {
@@ -18,20 +19,22 @@ body {
   }
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: normal;
 }
 
 h1 {
-  font-size: 1.8em;
+  font-size: 30px;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 24px;
 }
 
 h3 {
-  font-size: 1.3em;
+  font-size: 20px;
 }
 
 a {
@@ -56,5 +59,4 @@ a {
 
 #footer {
   margin-bottom: 30px;
-  font-size: 14px;
 }
