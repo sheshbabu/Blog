@@ -1,5 +1,5 @@
 .post-content header h1 {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .post-content .entry p,
@@ -8,6 +8,7 @@
 .post-content .entry ol,
 .post-content .entry dl,
 .post-content .entry iframe,
+.post-content .entry img,
 .post-content .entry .video-container {
   margin-top: 15px;
 }

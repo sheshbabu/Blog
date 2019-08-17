@@ -7,7 +7,7 @@
 body {
   font-family: var(--default-font);
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.75;
   margin: 0 auto;
   width: 750px;
 }
@@ -23,6 +23,7 @@ h1,
 h2,
 h3 {
   font-weight: normal;
+  line-height: 1.6;
 }
 
 h1 {
@@ -59,4 +60,8 @@ a {
 
 #footer {
   margin-bottom: 30px;
+}
+
+img {
+  width: 100%;
 }
