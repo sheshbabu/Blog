@@ -117,7 +117,7 @@ If we see that there's a lot of common code used in API modules, we can add one 
 ```js
 // HttpClient
 
-export default function request(path, method, body) {
+export default async function request(path, method, body) {
   const headers = {}; // add custom headers here
   const url = ""; // add logic to get correct url for the environment
 
@@ -128,7 +128,7 @@ export default function request(path, method, body) {
   // - convert to correct data type - response.json(), etc
   // - handle common errors like 401, 403 etc
 
-  return response
+  return response;
 }
 ```
 
@@ -139,7 +139,7 @@ We can now update our API modules to use HttpClient:
 
 import * as HttpClient from "./HttpClient";
 
-export async function getAllProducts() {
+export function getAllProducts() {
   return HttpClient.request("/api/products");
 }
 ```
@@ -149,7 +149,7 @@ export async function getAllProducts() {
 
 import * as HttpClient from "./HttpClient";
 
-export async function addToCart(itemId, qty) {
+export function addToCart(itemId, qty) {
   return HttpClient.request("/api/cart", "POST", { itemId, qty });
 }
 ```
