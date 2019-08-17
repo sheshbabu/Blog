@@ -1,6 +1,6 @@
 ---
 title: Organizing HTTP requests using the API module pattern
-description: Organizing HTTP requests using the API module pattern
+description: Improve readability and testability by abstracting the HTTP code from the UI or business code
 date: 2019-08-17 16:47:02
 keywords: HTTP, Frontend, API, Axios, Fetch, Clean Code, Organization, Design Patterns
 image: /images/2019-api/image-2.png
