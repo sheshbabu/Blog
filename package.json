@@ -6,6 +6,7 @@
     "version": "3.9.0"
   },
   "scripts": {
+    "create": "hexo new",
     "dev": "concurrently 'hexo generate -w' 'hexo server'",
     "clean": "hexo clean",
     "publish": "hexo clean && hexo deploy"
