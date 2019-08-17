@@ -6,8 +6,8 @@
 
 body {
   font-family: var(--default-font);
-  font-size: 16px;
-  line-height: 1.75;
+  font-size: 18px;
+  line-height: 1.8;
   margin: 0 auto;
   width: 750px;
 }
@@ -27,11 +27,11 @@ h3 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 25px;
 }
 
 h3 {
