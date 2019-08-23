@@ -9,9 +9,11 @@ permalink: posts/:title/
 
 highlight:
   line_number: false
-  tab_replace: '  '
+  tab_replace: "  "
 
 language: default
+
+per_page: 50
 
 # Extensions
 theme: minimal
