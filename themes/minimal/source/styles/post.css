@@ -13,8 +13,8 @@
   margin-top: 18px;
 }
 
-.post-content .entry ul {
-  margin-left: 15px;
+.post-content .entry li {
+  list-style-position: inside;
 }
 
 .post-content .entry h1,

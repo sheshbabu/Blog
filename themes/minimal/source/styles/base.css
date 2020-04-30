@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-text-size-adjust: none;
 }
 
 body {
@@ -60,6 +61,7 @@ a {
 
 #footer {
   margin-bottom: 30px;
+  font-size: 14px;
 }
 
 img {
