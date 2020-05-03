@@ -8,6 +8,7 @@ tags:
   - Development
   - React
   - Maintainability
+  - Code Reviews
 ---
 
 ## What are components?

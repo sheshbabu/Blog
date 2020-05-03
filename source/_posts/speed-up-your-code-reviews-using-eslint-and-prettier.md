@@ -4,6 +4,7 @@ description: Speed up your code reviews using ESLint and Prettier
 keywords: JavaScript, Development, ESLint, Prettier, Lint Staged, Husky, Code Review
 date: 2017-09-07 20:00:00
 tags:
+- Code Reviews
 - JavaScript
 - ESLint
 - Prettier
