@@ -4,9 +4,8 @@ description: Running Express over HTTPS in localhost
 keywords: Express, HTTPS, mkcert, localhost
 date: 2020-06-19 19:29:14
 tags:
-  - JavaScript
-  - Node.js
   - Express.js
+  - Node.js
 ---
 
 There are times when you want to expose your Express server via HTTPS for local development.
