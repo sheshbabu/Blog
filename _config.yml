@@ -7,9 +7,13 @@ url: http://www.sheshbabu.com/
 root: /
 permalink: posts/:title/
 
-highlight:
+prism_plugin:
+  mode: "preprocess"
   line_number: false
-  tab_replace: "  "
+  custom_css: "themes/minimal/source/styles/highlight.css"
+
+highlight:
+  enable: false
 
 language: default
 
@@ -22,7 +26,6 @@ sitemap:
   path: sitemap.xml
 
 # Feed
-# Using https://github.com/hexojs/hexo-generator-feed
 feed:
   type: atom
   limit: false
