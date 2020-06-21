@@ -222,3 +222,5 @@ function AboutPage() {
 Now the pageviews for all routes can be tracked automatically without adding any tracking code in the page components! We can refine this further and extract the tracking logic in `Routes` component to a [custom hook](https://reactjs.org/docs/hooks-custom.html).
 
 You can find a complete example in [this repo](https://github.com/sheshbabu/react-pageview-tracking-demo) and play with the [demo here](https://react-pageview-tracking-demo.netlify.app).
+
+Note: The examples in this post use React Router 5.2.0
