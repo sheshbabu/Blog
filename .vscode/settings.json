@@ -1,0 +1,11 @@
+{
+  "cSpell.ignoreWords": [
+    "clippy",
+    "npmjs",
+    "precommit",
+    "rustfmt",
+    "rustup",
+    "serde",
+    "subcommands"
+  ]
+}
