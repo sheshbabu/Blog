@@ -20,11 +20,11 @@ Let’s use this file structure to simulate a real world project:
 my_project
 ├── Cargo.toml
 └─┬ src
-  └── main.rs
+  ├── main.rs
   ├── config.rs
-  └── routes
+  ├─┬ routes
   │ ├── health_route.rs
-  │ ├── user_route.rs
+  │ └── user_route.rs
   └─┬ models
     └── user_model.rs
 ```
@@ -79,7 +79,7 @@ Here, the compiler looks for `my_module.rs` or `my_module/mod.rs` in the same di
 my_project
 ├── Cargo.toml
 └─┬ src
-  └── main.rs
+  ├── main.rs
   └── my_module.rs
 
 or
@@ -87,7 +87,7 @@ or
 my_project
 ├── Cargo.toml
 └─┬ src
-  └── main.rs
+  ├── main.rs
   └─┬ my_module
     └── mod.rs
 ```
@@ -174,12 +174,12 @@ So in order to call functions inside `routes/health_route.rs` from `main.rs`, we
 my_project
 ├── Cargo.toml
 └─┬ src
-  └── main.rs
+  ├── main.rs
   ├── config.rs
-  └── routes
+  ├─┬ routes
 + │ ├── mod.rs
   │ ├── health_route.rs
-  │ ├── user_route.rs
+  │ └── user_route.rs
   └─┬ models
     └── user_model.rs
 ```
@@ -253,12 +253,12 @@ Let's make the same changes as before - declaring submodules, making functions p
 my_project
 ├── Cargo.toml
 └─┬ src
-  └── main.rs
+  ├── main.rs
   ├── config.rs
-  └── routes
+  ├─┬ routes
   │ ├── mod.rs
   │ ├── health_route.rs
-  │ ├── user_route.rs
+  │ └── user_route.rs
   └─┬ models
 +   ├── mod.rs
     └── user_model.rs
