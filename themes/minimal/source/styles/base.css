@@ -60,8 +60,13 @@ a {
 }
 
 #footer {
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 30px;
-  font-size: 14px;
+}
+
+#footer i {
+  margin: 4px;
 }
 
 img {
