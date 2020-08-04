@@ -148,7 +148,7 @@ fn main() {
 
 fn get_current_date() -> Result<String, reqwest::Error> {
   let url = "https://postman-echo.com/time/object";
-  let res = reqwest::blocking::get(url)?.json::<HashMap<String, i32>>()?;
+  let response = reqwest::blocking::get(url)?.json::<HashMap<String, i32>>()?;
   let date = response["years"].to_string();
 
   Ok(date)
