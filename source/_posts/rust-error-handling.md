@@ -149,7 +149,7 @@ fn main() {
 fn get_current_date() -> Result<String, reqwest::Error> {
   let url = "https://postman-echo.com/time/object";
   let res = reqwest::blocking::get(url)?.json::<HashMap<String, i32>>()?;
-  let date = response["years"].to_string();
+  let date = res["years"].to_string();
 
   Ok(date)
 }
@@ -179,7 +179,7 @@ Let's extend the previous example by returning a formatted date instead of the y
   fn get_current_date() -> Result<String, reqwest::Error> {
     let url = "https://postman-echo.com/time/object";
     let res = reqwest::blocking::get(url)?.json::<HashMap<String, i32>>()?;
--   let date = response["years"].to_string();
+-   let date = res["years"].to_string();
 +   let formatted_date = format!("{}-{}-{}", res["years"], res["months"] + 1, res["date"]);
 +   let parsed_date = NaiveDate::parse_from_str(formatted_date.as_str(), "%Y-%m-%d")?;
 +   let date = parsed_date.format("%Y %B %d").to_string();
