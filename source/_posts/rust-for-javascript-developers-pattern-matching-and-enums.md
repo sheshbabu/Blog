@@ -9,11 +9,12 @@ tags:
   - JavaScript
 ---
 
-This is the fourth part in a series about introducing the Rust language to JavaScript developers. Here are the past chapters:
+This is the fourth part in a series about introducing the Rust language to JavaScript developers. Here are all the chapters:
 
 1. [Tooling Ecosystem Overview](http://www.sheshbabu.com/posts/rust-for-javascript-developers-tooling-ecosystem-overview/)
 2. [Variables and Data Types](http://www.sheshbabu.com/posts/rust-for-javascript-developers-variables-and-data-types/)
 3. [Functions and Control Flow](http://www.sheshbabu.com/posts/rust-for-javascript-developers-functions-and-control-flow/)
+4. [Pattern Matching and Enums](http://www.sheshbabu.com/posts/rust-for-javascript-developers-pattern-matching-and-enums/)
 
 ## Pattern Matching
 
@@ -424,4 +425,4 @@ fn main() {
 }
 ```
 
-Thanks for reading! Feel free to follow me in [Twitter](https://twitter.com/sheshbabu) for updates :)
+Thanks for reading! Feel free to follow me in [Twitter](https://twitter.com/sheshbabu) for more posts like this :)
