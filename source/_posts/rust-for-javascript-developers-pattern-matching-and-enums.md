@@ -7,6 +7,8 @@ date: 2020-07-12 13:48:03
 tags:
   - Rust
   - JavaScript
+  - Rust Beginners
+  - Rust for JavaScript Developers
 ---
 
 This is the fourth part in a series about introducing the Rust language to JavaScript developers. Here are all the chapters:

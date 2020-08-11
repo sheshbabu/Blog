@@ -6,6 +6,7 @@ image: /images/2020-rust-error-handling/2020-rust-error-handling.png
 date: 2020-08-02 21:00:00
 tags:
   - Rust
+  - Rust Beginners
 ---
 
 Error handling in Rust is very different if you're coming from other languages. In languages like Java, JS, Python etc, you usually `throw` exceptions and `return` successful values. In Rust, you return something called a `Result`.

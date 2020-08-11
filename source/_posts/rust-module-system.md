@@ -6,6 +6,7 @@ image: /images/2020-rust-module-system/rust-module-system-5.png
 date: 2020-07-19 10:38:14
 tags:
   - Rust
+  - Rust Beginners
 ---
 
 Rust’s module system is surprisingly confusing and causes a lot of frustration for beginners.
