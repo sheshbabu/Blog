@@ -7,7 +7,7 @@
   },
   "scripts": {
     "create": "hexo new",
-    "dev": "concurrently 'hexo generate -w' 'hexo server -p 3000'",
+    "dev": "concurrently 'hexo generate -w' 'hexo server -p 4000'",
     "clean": "hexo clean",
     "publish": "hexo clean && hexo deploy"
   },
