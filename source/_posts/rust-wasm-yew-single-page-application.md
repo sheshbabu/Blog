@@ -882,6 +882,16 @@ pub use product_card::ProductCard;
 ```
 
 ```diff
+  // src/lib.rs
+  mod api;
++ mod components;
+  mod pages;
+  mod types;
+
+  // No changes
+```
+
+```diff
   // src/pages/home.rs
 
   use crate::api;
