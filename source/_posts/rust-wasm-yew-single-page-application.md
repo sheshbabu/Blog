@@ -1114,6 +1114,8 @@ Let's add a route for ProductDetailPage under `/product/:id`. When the user clic
   }
 ```
 
+Note that the order of the routes above determines which page gets rendered first. For example, the url `/product/2` matches both `/product/{id}` and `/` but since we wrote `/product/{id}` first, the `ProductDetail` page gets rendered instead of `Home`.
+
 Add this route to `app.rs`:
 
 ```diff
