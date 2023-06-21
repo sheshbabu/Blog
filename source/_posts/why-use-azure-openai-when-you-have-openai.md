@@ -2,6 +2,7 @@
 title: Why use Azure OpenAI when you have OpenAI?
 date: 2023-06-22 01:03:26
 keywords: LLM, Azure OpenAI
+image: /images/2023-why-use-azure-openai-when-you-have-openai/2023-why-use-azure-openai-when-you-have-openai.png
 tags:
   - LLM
 ---
