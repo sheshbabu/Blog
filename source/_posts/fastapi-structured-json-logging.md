@@ -1,5 +1,5 @@
 ---
-title: FastAPI - Structured JSON Logging
+title: Structured JSON Logging using FastAPI
 date: 2023-06-24 15:25:26
 image: /images/2023-fastapi-structured-json-logging/2023-fastapi-structured-json-logging.png
 keywords: Python, FastAPI, Uvicorn, Logging
