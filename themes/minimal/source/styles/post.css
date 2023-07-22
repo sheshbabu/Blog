@@ -4,7 +4,6 @@
 
 .post-content .entry p,
 .post-content .entry blockquote,
-.post-content .entry ul,
 .post-content .entry ol,
 .post-content .entry dl,
 .post-content .entry iframe,
@@ -14,6 +13,7 @@
 
 .post-content .entry li {
   list-style-position: inside;
+  margin: 8px 0 0 8px;
 }
 
 .post-content .entry h1,
