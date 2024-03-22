@@ -2,6 +2,7 @@
 title: Analyzing Slow Python Code using cProfile
 date: 2024-03-22 18:49:00
 keywords: Python, Performance, Profiling, cProfile, SnakeViz, Flame Graphs
+image: /images/2024-analyzing-slow-python-code-using-cprofile/analyzing-slow-python-code-using-cprofile.png
 tags:
   - Python
   - Performance
