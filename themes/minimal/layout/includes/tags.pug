@@ -1,4 +1,9 @@
 div.meta
+  div.share Share: 
+    a(href= "https://twitter.com/intent/tweet?text=" + page.title + "%0a%0a" + config.url + "/" + page.path, target="_blank")
+      i(class="fab fa-twitter")
+    a(href= "https://www.linkedin.com/sharing/share-offsite/?url=" + config.url + "/" + page.path, target="_blank")
+      i(class="fab fa-linkedin")
   div.tags Tagged under: 
     if page.tags && page.tags.data
       each tag, index in page.tags.data

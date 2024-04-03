@@ -64,8 +64,14 @@
   padding-top: 30px;
 }
 
+.post-content footer .meta .share,
+.post-content footer .meta .tags,
 .post-content footer .meta .date-published {
   margin-top: 10px;
+}
+
+.post-content footer .meta .share a {
+  margin: 0 5px;
 }
 
 .post-content footer .about-me h3 {
