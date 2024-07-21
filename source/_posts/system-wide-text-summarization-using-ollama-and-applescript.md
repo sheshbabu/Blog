@@ -1,10 +1,11 @@
 ---
 title: System-wide text summarization using Ollama and AppleScript
 date: 2024-03-11 09:06:21
-keywords: LLM
+keywords: LLM, AppleScript
 image: /images/2024-ollama-and-applescript/2024-ollama-and-applescript.png
 tags:
   - LLM
+  - AppleScript
 ---
 
 Local LLMs like Mistral, Llama etc allow us to run ChatGPT like large language models locally inside our computers. Since all the processing happens within our systems, I feel more comfortable feeding it personal data compared to hosted LLMs.
