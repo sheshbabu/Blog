@@ -205,5 +205,8 @@ And then adding it to `main.py`:
       uvicorn.run(app=app, host="0.0.0.0")
 ```
 
+You can find the full codebase in this [repo](https://github.com/sheshbabu/fastapi-asyncpg-demo).
+
+
 Related posts:
 * [Structured JSON Logging using FastAPI](https://www.sheshbabu.com/posts/fastapi-structured-json-logging/)
