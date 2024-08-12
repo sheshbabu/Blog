@@ -96,3 +96,6 @@ The user is now successfully logged in to the SP's website! The SP will create a
 Hopefully this post is able to give you a high level overview of SAML authentication and how the SSO works.
 
 Thanks for reading! :)
+
+Related posts:
+[Implementing SAML SSO in Node.js with Microsoft Entra ID](https://www.sheshbabu.com/posts/implementing-saml-authentication-in-node-js/)
